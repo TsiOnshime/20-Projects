@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(135deg, #ece9e6 0%, #ffffff 100%);
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+#gameboard {
+    width: 640px;
+    height: 640px;
+    margin: 40px auto 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 8px solid #444;
+    border-radius: 18px;          
+    box-shadow: 0 12px 36px rgba(0,0,0,0.20), 0 2px 8px rgba(0,0,0,0.10); 
+    background: #222;
+    overflow: hidden;  
+}
+.square {
+    height: 80px;
+    width: 80px;
+    position: relative;
+    transition: box-shadow 0.2s;
+}
+.square svg {
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    position: relative;
+    z-index: -9;
+    transition: transform 0.1s;
+}
+.square:hover {
+    box-shadow: 0 0 0 4px #ffe066 inset;
+    cursor: pointer;
+}
+path {
+    position: relative;
+    z-index: -10;
+}
+.piece {
+    position: relative;
+    z-index: 9;
+}
+.beige {
+    background-color: #f0d9b5;
+}
+.brown {
+    background-color: #b58863;
+}
+.black{
+    fill: black
+}
+.white{
+    fill: white;
+}
+#player {
+    font-weight: bold;
+    color: #444;
+}
+
+#info-display {
+    margin: 16px auto;
+    text-align: center;
+    font-size: 1.2em;
+    min-height: 1.5em;
+    color: #b22222;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1em;
+    margin: 0.5em auto;
+}

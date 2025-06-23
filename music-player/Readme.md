@@ -1,10 +1,10 @@
-# 🎵 Modern Music Player
+# Modern Music Player
 
 A visually appealing and responsive music player built with **HTML**, **CSS**, and **JavaScript**.
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Play/Pause Controls:** Easily play or pause your favorite song.
 - **Seek Bar:** Interactive progress bar to seek any part of the track.
@@ -14,7 +14,7 @@ A visually appealing and responsive music player built with **HTML**, **CSS**, a
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 ```
 music-player/ ├── index.html # Main HTML file 
               ├── style.css # Styling for the music player
@@ -48,4 +48,4 @@ This project is provided for educational and personal use.
 
 ---
 
-<p align="center"><b>Enjoy your
+<p align="center"><b>Enjoy your Music </b> </p>

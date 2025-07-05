@@ -1,10 +1,10 @@
-# ⚡ Speed Typing Game
+# Speed Typing Game
 
 A modern, responsive speed typing game built with **React**, **TypeScript**, and **Tailwind CSS**.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Real-Time Typing Test:** Type as many words as you can before the timer runs out.
 - **Live Accuracy & Error Tracking:** See your accuracy and error count instantly.
@@ -14,7 +14,7 @@ A modern, responsive speed typing game built with **React**, **TypeScript**, and
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - [React](https://reactjs.org/) (with Hooks)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -26,7 +26,7 @@ A modern, responsive speed typing game built with **React**, **TypeScript**, and
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 ```
 speed-typing/ 
 ├── public/
@@ -52,7 +52,7 @@ speed-typing/
 ```
 ---
 
-## 🏁 Getting Started
+## Getting Started
 
 1. **Clone the repository:**
    ```sh
@@ -68,7 +68,7 @@ speed-typing/
 
 Open http://localhost:3000 in your browser.
 
-## ✨ Customization
+## Customization
 
 Change Number of Words or Timer:
 Edit NUMBER_OF_WORDS and COUNTDOWN_SECONDS in useEngine.ts.

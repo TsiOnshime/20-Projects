@@ -79,3 +79,4 @@ This project is provided for educational and personal use.
 
 <p align="center"><b>Enjoy testing your typing speed! ⌨️⚡</b></p>
 
+git pull origin master --no-rebase
